@@ -18,14 +18,17 @@ body {
 	margin-bottom: 50px;
 	padding-bottom: 10px;
 	height: auto;
-	overflow: auto;
 }
 
 #title {
 	text-align: center;
 	padding-top: 20px;
 	font-family: "Allura";
-	font-size: 3em;
+	font-size: 48px;
+}
+
+#survey-form {
+	padding-bottom: 100px;
 }
 
 #description {
@@ -47,7 +50,7 @@ body {
 
 .labels {
 	width: 30vw;
-	height: 1.2em;
+	height: 18px;
 	background-color: transparent;
 	text-align: right;
 	padding-right: 5px;
@@ -55,7 +58,7 @@ body {
 
 .rightTab {
 	width: 30vw;
-	height: 1.2em;
+	height: 18px;
 }
 
 input {
@@ -150,21 +153,20 @@ input[type=checkbox] {
 	
 	#title {
 		padding: 0;
-		font-size: 100px;
+		font-size: 140px;
 	}
 	
 	#description {
-		padding: 0 50px;
+		padding: 40px 50px 0 50px;
 		text-align: center;
-		font-size: 50px;
+		font-size: 80px;
 	}
 	
 	.rowTab {
 		display: block;
 		height: auto;
-		margin-top: 50px;
+		margin-top: 90px;
 		margin-left: 80px;
-		font-size: 50px;
 	}
 	
 	.labels {
@@ -174,12 +176,11 @@ input[type=checkbox] {
 		padding: 0;
 		left: 10px;
 		width: 300px;
-		line-height: 30px;
 		font-size: 18px;
 	}
 	
 	.rightTab {
-		width: 500px;
+		width: 600px;
 		margin-left: 10px;
 	}
 	
@@ -192,13 +193,26 @@ input[type=checkbox] {
 		font-size: 20px;
 	}
 	
+	input[type=radio], input[type=checkbox] {
+		transform: scale(2);
+		-ms-transform: scale(2);
+		-webkit-transform: scale(2);
+	}
+	
 	#dropdown, #sel {
 		font-size: 20px;
+	
 	}
 	
 	.radio-input, .cb-input {
 		margin-top: 20px;
-		font-size: 38px;
+		font-size: 50px;
+		width: 200px;
+	}
+	
+	.tab {
+		font-size: 50px;
+		padding-left: 20px;
 	}
 	
 	#texta {
