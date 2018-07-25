@@ -167,6 +167,7 @@ input[type=checkbox] {
 		height: auto;
 		margin-top: 90px;
 		margin-left: 80px;
+		font-size: 60px;
 	}
 	
 	.labels {
@@ -175,8 +176,12 @@ input[type=checkbox] {
 		margin: 0;
 		padding: 0;
 		left: 10px;
-		width: 300px;
-		font-size: 18px;
+		width: 95vw;
+		font-size: 32px;
+	}
+	
+	.tab {
+		padding-left: 20px;
 	}
 	
 	.rightTab {
@@ -185,7 +190,7 @@ input[type=checkbox] {
 	}
 	
 	.input {
-		width: 500px;
+		width: 650px;
 		height: 60px;
 	}
 	
