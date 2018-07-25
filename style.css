@@ -149,13 +149,13 @@ input[type=checkbox] {
 	
 	#title {
 		padding: 0;
-		font-size: 70px;
+		font-size: 100px;
 	}
 	
 	#description {
 		padding: 0 50px;
 		text-align: center;
-		font-size: 32px;
+		font-size: 50px;
 	}
 	
 	.rowTab {
@@ -211,15 +211,15 @@ input[type=checkbox] {
 	}
 	
 	#submit {
-	background-color: rgb(38, 14, 154);
-	color: white;
-	width: 30vw;
-	height: 50px;
-	padding: 10px 20px;
-	font-size: 32px;
-	display: block;
-	margin: auto;
-	margin-top: 70px;
-	margin-bottom: 30px;
+		background-color: rgb(38, 14, 154);
+		color: white;
+		width: 30vw;
+		height: 50px;
+		padding: 10px 20px;
+		font-size: 32px;
+		display: block;
+		margin: auto;
+		margin-top: 70px;
+		margin-bottom: 30px;
 	}
 }
