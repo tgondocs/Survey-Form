@@ -1,0 +1,225 @@
+:root {
+	background-color: rgb(152, 132, 244);
+	font-family: "Allura";
+	font-size: 1.5em;
+}
+
+body {
+	background-image: url("https://st2.depositphotos.com/4633569/10455/i/950/depositphotos_104558460-stock-photo-seamless-pattern-with-the-watercolor.jpg");
+	height: auto;
+	padding: 10px;
+	}
+
+#main {
+	background-color: linen;
+	width: 80%;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	padding-bottom: 10px;
+	height: auto;
+	overflow: auto;
+}
+
+#title {
+	text-align: center;
+	padding-top: 20px;
+	font-family: "Allura";
+	font-size: 3em;
+}
+
+#description {
+		padding-top: 20px;
+		padding-bottom: 15px;
+		font-size: 32px;
+		text-align: center;
+}
+
+#container {
+	width: 60vw;
+	margin: auto;
+}
+
+.rowTab {
+	display: flex;
+	margin-top: 10px;
+}
+
+.labels {
+	width: 30vw;
+	height: 1.2em;
+	background-color: transparent;
+	text-align: right;
+	padding-right: 5px;
+}
+
+.rightTab {
+	width: 30vw;
+	height: 1.2em;
+}
+
+input {
+	width: 15vw;
+}
+
+label, span {
+	margin-right: 10px;
+}
+
+#rightTab input {
+	width: auto;
+}
+
+input[type=checkbox] {
+	width: auto;
+}	
+
+#cbox {
+	height: auto;
+}
+#texta {
+	width: 20vw;
+}
+
+#textar {
+	height: 30px;
+}
+
+#submit {
+	background-color: rgb(38, 14, 154);
+	color: white;
+	width: 100px;
+	padding: 10px 20px;
+}
+
+#bsubmit {
+	height: 20px;
+	bottom: 20px;
+	width: 20px;
+	margin: auto;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+	.rowTab {
+		flex-direction: column;
+	}
+	.labels {
+		text-align: left;
+		height: auto;
+
+	}
+	.rightTab{
+		width: 100%;
+		height: auto;
+	}
+	
+	#main, body {
+		height: auto;
+	}
+	
+	#container {
+		overflow: auto;
+	}
+	
+	#texta, input {
+		width: 120px;
+	}
+	#bsubmit {
+		margin: auto;
+	}
+}
+
+@media screen and (max-device-width: 768px) {
+	
+	#main {
+		width: 95%;
+		margin: auto;
+		margin-top: 20px;
+	}
+	
+	#container {
+		width: 100%;
+	}
+	
+	#survey-form {
+		width: 100%;
+	}
+	
+	#title {
+		padding: 0;
+		font-size: 70px;
+	}
+	
+	#description {
+		padding: 0 50px;
+		text-align: center;
+		font-size: 32px;
+	}
+	
+	.rowTab {
+		display: block;
+		height: auto;
+		margin-top: 50px;
+		margin-left: 80px;
+		font-size: 32px;
+	}
+	
+	.labels {
+		display: inline;
+		text-align: left;
+		margin: 0;
+		padding: 0;
+		left: 10px;
+		width: 300px;
+		line-height: 30px;
+		font-size: 18px;
+	}
+	
+	.rightTab {
+		width: 500px;
+		margin-left: 10px;
+	}
+	
+	.input {
+		width: 500px;
+		height: 60px;
+	}
+	
+	.input::placeholder {
+		font-size: 20px;
+	}
+	
+	#dropdown, #sel {
+		font-size: 20px;
+	}
+	
+	.radio-input, .cb-input {
+		margin-top: 20px;
+		font-size: 38px;
+	}
+	
+	#texta {
+		width: 70vw;
+		margin: auto;
+		height: 100px;
+	}
+	
+	#bsubmit {
+		width: 100%;
+	}
+	
+	#submit {
+	background-color: rgb(38, 14, 154);
+	color: white;
+	width: 30vw;
+	height: 50px;
+	padding: 10px 20px;
+	font-size: 32px;
+	display: block;
+	margin: auto;
+	margin-top: 70px;
+	margin-bottom: 30px;
+	}
+}
