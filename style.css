@@ -8,7 +8,7 @@ body {
 	background-image: url("https://st2.depositphotos.com/4633569/10455/i/950/depositphotos_104558460-stock-photo-seamless-pattern-with-the-watercolor.jpg");
 	height: auto;
 	padding: 10px;
-}
+	}
 
 #main {
 	background-color: linen;
@@ -32,10 +32,10 @@ body {
 }
 
 #description {
-	padding-top: 20px;
-	padding-bottom: 15px;
-	font-size: 32px;
-	text-align: center;
+		padding-top: 20px;
+		padding-bottom: 15px;
+		font-size: 32px;
+		text-align: center;
 }
 
 #container {
@@ -167,7 +167,7 @@ input[type=checkbox] {
 		height: auto;
 		margin-top: 90px;
 		margin-left: 80px;
-		font-size: 60px;
+		font-size: 70px;
 	}
 	
 	.labels {
@@ -195,7 +195,7 @@ input[type=checkbox] {
 	}
 	
 	.input::placeholder {
-		font-size: 20px;
+		font-size: 40px;
 	}
 	
 	input[type=radio], input[type=checkbox] {
@@ -205,8 +205,11 @@ input[type=checkbox] {
 	}
 	
 	#dropdown, #sel {
-		font-size: 20px;
+		font-size: 40px;
+	}
 	
+	#setdistance {
+		margin-top: 30px;
 	}
 	
 	.radio-input, .cb-input {
@@ -216,7 +219,7 @@ input[type=checkbox] {
 	}
 	
 	.tab {
-		font-size: 50px;
+		font-size: 60px;
 		padding-left: 20px;
 	}
 	
