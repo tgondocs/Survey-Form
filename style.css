@@ -8,7 +8,7 @@ body {
 	background-image: url("https://st2.depositphotos.com/4633569/10455/i/950/depositphotos_104558460-stock-photo-seamless-pattern-with-the-watercolor.jpg");
 	height: auto;
 	padding: 10px;
-	}
+}
 
 #main {
 	background-color: linen;
@@ -32,10 +32,10 @@ body {
 }
 
 #description {
-		padding-top: 20px;
-		padding-bottom: 15px;
-		font-size: 32px;
-		text-align: center;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	font-size: 32px;
+	text-align: center;
 }
 
 #container {
